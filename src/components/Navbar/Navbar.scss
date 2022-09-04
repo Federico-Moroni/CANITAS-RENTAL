@@ -1,0 +1,38 @@
+.NavbarContainer{
+    padding-top: 2vh;
+    .NavbarRow{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .NavbarColCenter{
+            ul{
+                height: 4em;
+                list-style: none;
+                padding-left: 0 !important;
+                li{
+                    text-transform: uppercase;
+                }
+                .NavbarTitleLi{
+                    font-size: 1.5em;
+                }
+                .NavbarSubtitleLi{
+                    font-size: 0.85em;
+                }
+            }
+        }
+        .Cols{
+            ul{
+                height: 3.2em;
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-evenly;
+                list-style: none;
+                li{
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
