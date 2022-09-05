@@ -1,0 +1,74 @@
+.HeroImageContainer{
+    height: 100vh;
+    overflow: hidden;
+    .HeroCol{
+        padding: 0;
+        height: 100vh;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .HeroImageh1{
+            text-transform: uppercase;
+            position: absolute;
+            z-index: 1;
+            color: white;
+            font-size: 3em;
+            height: 20vh;
+            width: 30vw;
+            margin-top:-35vh;
+            .Welcome {
+                    font-size: .8em;
+                }
+            .HeroMessage{
+                visibility: visible;
+                font-size: 1em;
+                color: white;
+                height: 1.2em;
+                overflow: hidden;
+                position: absolute;
+                width: 100%;
+                .spancito {
+                        position: absolute;
+                        width: 0;
+                        height: 100%;
+                        right: 0;
+                        background-color: white;
+                        filter: brightness(65%);
+                        animation: openclose 3.5s ease-in-out;
+                        animation-delay: 2s;
+                    }
+                .word{
+                    color: white;
+                    animation: transp 6.9s
+                }
+            }
+        }
+        .HeroImg{
+            height: 100%;
+            object-fit: cover;
+            width: 100vw;
+            filter: brightness(80%);
+        }
+}}
+
+@keyframes transp {
+    0% {
+        color: transparent;
+    }
+    50%{
+        color: transparent;
+    }
+}
+
+@keyframes openclose {
+    0% {
+        width: 0%;
+    }
+    50%{
+        width: 100%;
+    }
+    100%{
+        width: 0%;
+    }
+}

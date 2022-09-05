@@ -1,5 +1,8 @@
 .NavbarContainer{
+    position: absolute;
+    z-index: 1;
     padding-top: 2vh;
+    color: white;
     .NavbarRow{
         display: flex;
         justify-content: center;
@@ -13,7 +16,7 @@
                     text-transform: uppercase;
                 }
                 .NavbarTitleLi{
-                    font-size: 1.5em;
+                    font-size: 2em;
                 }
                 .NavbarSubtitleLi{
                     font-size: 0.85em;
@@ -22,17 +25,21 @@
         }
         .Cols{
             ul{
-                height: 3.2em;
+                height: 4.8em;
+                position: relative;
                 display: flex;
                 align-items: flex-end;
                 justify-content: space-evenly;
                 list-style: none;
                 li{
                     text-transform: uppercase;
-                    font-weight: bold;
                     cursor: pointer;
+                    :hover{
+                        border-bottom: 1px solid white;
+                        transition-duration: 0.1s;
+                    }
+                    }
                 }
             }
         }
     }
-}
