@@ -9,9 +9,9 @@ const Navbar = () => {
             <Row className='NavbarRow'>
                 <Col xl={5} lg={5} md={5} sm={5} className='Cols NavbarColLeft'>
                     <ul className='NavbarUl'>
-                        <li className='NavbarLi'><a>Home</a></li>
-                        <li className='NavbarLi'><a>Activities</a></li>
-                        <li className='NavbarLi'><a>Cottages</a></li>
+                        <li className='NavbarLi'>Home</li>
+                        <li className='NavbarLi'>Activities</li>
+                        <li className='NavbarLi'>Cottages</li>
                     </ul>
                 </Col>
                 <Col xl={2} lg={2} md={2} sm={2} className='NavbarColCenter'>
@@ -22,9 +22,9 @@ const Navbar = () => {
                 </Col>
                 <Col xl={5} lg={5} md={5} sm={5} className='Cols NavbarColRight'>
                     <ul className='NavbarUl'>
-                        <li className='NavbarLi'><a>Book Now</a></li>
-                        <li className='NavbarLi'><a>Contact</a></li>
-                        <li className='NavbarLi'><a>Login</a></li>
+                        <li className='NavbarLi'>Book Now</li>
+                        <li className='NavbarLi'>Contact</li>
+                        <li className='NavbarLi'>Login</li>
                     </ul>
                 </Col>
             </Row>
