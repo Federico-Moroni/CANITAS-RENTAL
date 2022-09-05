@@ -28,7 +28,11 @@
                 overflow: hidden;
                 position: absolute;
                 width: 100%;
-                .spancito {
+                .word{
+                    color: white;
+                    animation: transp 6.9s
+                }
+                .wordWrapper {
                         position: absolute;
                         width: 0;
                         height: 100%;
@@ -38,10 +42,6 @@
                         animation: openclose 3.5s ease-in-out;
                         animation-delay: 2s;
                     }
-                .word{
-                    color: white;
-                    animation: transp 6.9s
-                }
             }
         }
         .HeroImg{
@@ -64,6 +64,7 @@
 @keyframes openclose {
     0% {
         width: 0%;
+        left: 0;
     }
     50%{
         width: 100%;

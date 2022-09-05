@@ -30,6 +30,6 @@ const Navbar = () => {
             </Row>
         </Container>
     )
-}
+} 
 
 export default Navbar
