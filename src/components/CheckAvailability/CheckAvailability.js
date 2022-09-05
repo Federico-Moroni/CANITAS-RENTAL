@@ -3,7 +3,7 @@ import './CheckAvailability.scss';
 import { Container, Row, Col } from 'react-bootstrap';
 
 function CheckAvailability() {
-  return (
+    return (
     <Container fluid className='HomeFormContainer'>
         <Row className='HomeFormRow'>
             <form className='HomeForm'>
@@ -42,7 +42,7 @@ function CheckAvailability() {
 
         </Row>
     </Container>
-  )
+)
 }
 
 export default CheckAvailability
