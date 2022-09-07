@@ -1,0 +1,149 @@
+// X-LARGE DEVICES [XL]
+@media all and (min-width: 1200px) {
+    .HomeFormContainer {
+        height: 50vh;
+        margin-top: 50vh;
+        .HomeFormRow {
+            max-width: 80vw;
+            .HomeForm {
+                height: 45vh;
+                .CustomField {
+                    font-size: 14px;
+                    padding-top: 20px;
+                    input {
+                        padding: 10px;
+                        border-radius: 3px;
+                        width: 98%;
+                        font-size: 14px;
+                    }
+                    .Placeholder {
+                        z-index: 2;
+                        left: 12px;
+                        top: calc(50% + 10px);
+                        transform: translateY(-50%);
+                        transition:
+                            top 0.3s ease,
+                            color 0.3s ease,
+                            font-size 0.3s ease;
+                    }
+                }
+                // .CustomField input:valid + .Placeholder,
+                .CustomField input:focus + .Placeholder {
+                    top: 0px;
+                    font-size: 12px;
+                }
+                .HomeFormBtn {
+                    border-radius: 3px;
+                    width: 98%;
+                    font-size: 14px;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
+
+// LARGE DEVICES [LG]
+@media all and (min-width: 993px) and (max-width: 1199px) {
+    .HomeFormContainer {
+        height: 50vh;
+        margin-top: 50vh;
+        .HomeFormRow {
+            max-width: 80vw;
+            .HomeForm {
+                height: 45vh;
+                .CustomField {
+                    font-size: 14px;
+                    padding-top: 20px;
+                    input {
+                        padding: 10px;
+                        border-radius: 3px;
+                        width: 98%;
+                        font-size: 14px;
+                    }
+                    .Placeholder {
+                        z-index: 2;
+                        left: 12px;
+                        top: calc(50% + 10px);
+                        transform: translateY(-50%);
+                        transition:
+                            top 0.3s ease,
+                            color 0.3s ease,
+                            font-size 0.3s ease;
+                    }
+                }
+                // .CustomField input:valid + .Placeholder,
+                .CustomField input:focus + .Placeholder {
+                    top: 0px;
+                    font-size: 12px;
+                }
+                .HomeFormBtn {
+                    border-radius: 3px;
+                    width: 98%;
+                    font-size: 14px;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
+
+// MEDIUM DEVICES [MD]
+@media all and (min-width: 769px) and (max-width: 992px) {
+    .HomeFormContainer {
+        height: 50vh;
+        margin-top: 50vh;
+        .HomeFormRow {
+            max-width: 85vw;
+            .HomeForm {
+                height: 45vh;
+                .CustomField {
+                    font-size: 12px;
+                    padding-top: 20px;
+                    input {
+                        padding: 10px;
+                        border-radius: 3px;
+                        width: 98%;
+                        font-size: 12px;
+                    }
+                    .Placeholder {
+                        z-index: 2;
+                        left: 10px;
+                        top: calc(50% + 10px);
+                        transform: translateY(-50%);
+                        transition:
+                            top 0.3s ease,
+                            color 0.3s ease,
+                            font-size 0.3s ease;
+                    }
+                }
+                // .CustomField input:valid + .Placeholder,
+                .CustomField input:focus + .Placeholder {
+                    top: 0px;
+                    font-size: 12px;
+                }
+                .HomeFormBtn {
+                    border-radius: 3px;
+                    width: 98%;
+                    font-size: 12px;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+}
+
+// SMALL DEVICES [SM]
+@media all and (min-width: 577px) and (max-width: 768px) {
+
+}
+
+// XS DEVICES [-]
+@media all and (min-width: 415px) and (max-width: 576px){
+
+}
+
+// IPHONE 6/7/8 PLUS DEVICES [AN EXCEPTION]
+@media all and (max-width: 414px) {
+
+}
