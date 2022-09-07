@@ -34,12 +34,11 @@ function CheckAvailability() {
                     <span className='HomeFormPlaceholder'>Amount of nights</span>
                 </label>
                 </Col>
-
+                
                 <Col xl={2} lg={3} md={3} sm={3} className='HomeFormTags'>
                     <button className='HomeFormBtn' id='HomeFormBtnId'><a>Check Availability</a></button>
                 </Col>
             </form>
-
         </Row>
     </Container>
 )

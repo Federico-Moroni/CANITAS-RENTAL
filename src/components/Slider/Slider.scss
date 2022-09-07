@@ -1,0 +1,52 @@
+.SliderContainer{
+    height: 100%;
+    position: relative;
+    .SliderSlidesWrapper{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        }
+        .SliderSlide{
+            width: 500px;
+            height: 100%;
+            border-radius: 10px;
+            background-position: center;
+            background-size: cover;
+        }
+        .SliderLeftSlide{
+            width: 500px;
+            height: 100%;
+            border-radius: 10px;
+            background-position: center;
+            background-size: cover;
+        }
+        .SliderRightSlide{
+            width: 500px;
+            height: 100%;
+            border-radius: 10px;
+            background-position: center;
+            background-size: cover;
+        }
+        .SliderLeftArrow{
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            left: 32px;
+            font-size: 55px;
+            color: black;
+            z-index: 2;
+            cursor: pointer;
+        }
+    .SliderRightArrow{
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        right: 32px;
+        font-size: 55px;
+        color: black;
+        z-index: 2;
+        cursor: pointer;
+    }
+}
+

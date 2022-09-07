@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar/Navbar'
 import HeroImage from './components/HeroImage/HeroImage';
+import Activities from './components/Activities/Activities';
+
 
 
 function App() {
@@ -11,6 +13,9 @@ function App() {
         <Navbar />
         <HeroImage />
       </header>
+      <main>
+        <Activities />
+      </main>
     </div>
   );
 }
