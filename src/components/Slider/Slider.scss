@@ -6,6 +6,18 @@
         height: 100%;
         display: flex;
         justify-content: space-evenly;
+        align-items: center;
+        .SliderSlidesAll{
+            --i:1;
+            transform-style: preserve-3d;
+            transform-origin: center;
+        }
+        .SliderLeftRightSlides{
+            opacity: 50%;
+            height: 90%;
+            width: 25%;
+            cursor: pointer;
+        }
         }
         .SliderSlide{
             width: 500px;
@@ -16,17 +28,18 @@
         }
         .SliderLeftSlide{
             width: 500px;
-            height: 100%;
             border-radius: 10px;
             background-position: center;
             background-size: cover;
+            transform: perspective(1000px) rotateY(-15deg);
         }
         .SliderRightSlide{
             width: 500px;
-            height: 100%;
             border-radius: 10px;
             background-position: center;
             background-size: cover;
+            transform-style: preserve-3d;
+            transform: perspective(1000px) rotateY(15deg);
         }
         .SliderLeftArrow{
             position: absolute;
@@ -34,7 +47,7 @@
             transform: translate(0, -50%);
             left: 32px;
             font-size: 55px;
-            color: black;
+            color: white;
             z-index: 2;
             cursor: pointer;
         }
@@ -44,7 +57,7 @@
         transform: translate(0, -50%);
         right: 32px;
         font-size: 55px;
-        color: black;
+        color: white;
         z-index: 2;
         cursor: pointer;
     }
