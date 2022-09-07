@@ -41,7 +41,6 @@ const Slider = ({slides}) => {
                 const nextIndex = newIndex + 1;
                 setNextIndex(nextIndex)
             }
-
         }
     };
 
@@ -86,11 +85,18 @@ const Slider = ({slides}) => {
 
             <div className='SliderSlidesWrapper'>
 
-                <div style={slideStylesPrev} className='SliderLeftSlide'></div>
+                <div onClick={goToPrevious} style={slideStylesPrev} className='SliderLeftRightSlides SliderSlidesAll SliderLeftSlide'>
+                
+                </div>
 
-                <div className='SliderSlide' style={slideStyles}></div>
+                <div className='SliderSlidesAll SliderSlide' style={slideStyles}>
 
-                <div style={slideStylesNext} className='SliderRightSlide'></div>
+                </div>
+
+                <div onClick={goToNext} style={slideStylesNext} className='SliderLeftRightSlides SliderSlidesAll SliderRightSlide'>
+
+                </div>
+
             </div>
 
         </div>
