@@ -1,44 +1,39 @@
 .NavbarContainer{
     position: absolute;
-    z-index: 1;
-    padding-top: 2vh;
+    font-weight: bold;
     color: white;
     .NavbarRow{
-        display: flex;
-        justify-content: center;
-        align-items: center;
         .NavbarColCenter{
             ul{
-                height: 4em;
                 list-style: none;
-                padding-left: 0 !important;
                 li{
                     text-transform: uppercase;
                 }
                 .NavbarTitleLi{
-                    font-size: 2em;
+                    font-weight: o;
                 }
                 .NavbarSubtitleLi{
-                    font-size: 0.85em;
+                    font-size: 0.70em;
+                    font-weight: bold;
                 }
             }
         }
         .Cols{
             ul{
-                height: 4.8em;
-                position: relative;
                 display: flex;
                 align-items: flex-end;
                 justify-content: space-evenly;
                 list-style: none;
                 li{
                     text-transform: uppercase;
+                    font-weight: bold;
                     cursor: pointer;
-                    }
-                    :hover{
-                        border-bottom: 1.5px solid white;
-                    }
+                }
+                :hover{
+                    transition:0.8s linear;
+                    border-bottom: 1px solid white;
                 }
             }
         }
     }
+}

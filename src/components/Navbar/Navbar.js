@@ -1,11 +1,20 @@
+/* IMPORTS */
+
+// SCSS import:
 import './Navbar.scss';
+import './NavbarMediaQuery.scss';
+// React import:
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
+
+/* COMPONENTS */
+
+// Navbar Component:
 const Navbar = () => {
 
     return(
-        <Container className='NavbarContainer' fluid>
+        <Container fluid className='NavbarContainer'>
             <Row className='NavbarRow'>
                 <Col xl={5} lg={5} md={5} sm={5} className='Cols NavbarColLeft'>
                     <ul className='NavbarUl'>
@@ -17,7 +26,7 @@ const Navbar = () => {
                 <Col xl={2} lg={2} md={2} sm={2} className='NavbarColCenter'>
                     <ul>
                         <li className='NavbarTitleLi'>Las Cañitas</li>
-                        <li className='NavbarSubtitleLi'>Valle de Calamuchita | Córdoba</li>
+                        <li className='NavbarSubtitleLi'>Valle de Calamuchita <span>| Córdoba</span></li>
                     </ul>
                 </Col>
                 <Col xl={5} lg={5} md={5} sm={5} className='Cols NavbarColRight'>
@@ -27,9 +36,10 @@ const Navbar = () => {
                         <li className='NavbarLi'>Login</li>
                     </ul>
                 </Col>
+                <label className='BurgerMenuLabel'></label>
             </Row>
         </Container>
     )
-} 
+}
 
-export default Navbar
+export default Navbar;
