@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 import HeroImage from './components/HeroImage/HeroImage';
 import Activities from './components/Activities/Activities';
 import LoginModal from './components/LoginModal/LoginModal'
+import Form from './components/Form/Form'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <main>
         <Activities />
         <LoginModal />
+        <Form />
       </main>
     </div>
   );
