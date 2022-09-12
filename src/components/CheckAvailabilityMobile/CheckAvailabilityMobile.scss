@@ -1,0 +1,63 @@
+.AvailabilityMobileContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://res.cloudinary.com/dfprmjlir/image/upload/v1662945204/CANITAS%20RENTAL/pexels-erik-mclean-7547526_hqsptw.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+    .AvailabilityMobileRow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(5px);
+        box-shadow: rgba(255, 255, 255, 0.3) 0px 0px 12px;
+        background-color: rgba(0, 0, 0, 0.1);
+
+        .AvailabilityMobileForm {
+            .AvailabilityMobileTags {
+                position: relative;
+                .CustomField {
+                    .input {
+                        color: white;
+                        background: transparent;
+                        transition: border-color 0.2s;
+                        &::placeholder {
+                            color: transparent;
+                        }
+                        &:placeholder-shown ~ .Placeholder {
+                            cursor: text;
+                        }
+                    }
+                    .input:focus {
+                        border-image: linear-gradient(to right, white,blue);
+                        ~ .Placeholder {
+                            position: absolute;
+                            display: block;
+                            transition: 0.2s;
+                            color:white;
+                        }
+                    }
+                    .Placeholder {
+                        position: absolute;
+                        display: block;
+                        transition: 0.2s;
+                        color: white;
+                    }
+                }
+            }
+            .AvailabilityMobileBtn {
+                outline: none;
+                border: 1px solid white;
+                text-decoration: none;
+                color: white;
+                cursor: pointer;
+                font-weight: bold;
+                background: rgba(255, 255, 255, 0.415);
+                margin-top: 5%;
+            }
+        }
+    }
+}

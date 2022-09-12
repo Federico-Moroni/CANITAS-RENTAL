@@ -1,35 +1,39 @@
-.NavbarContainer{
+.NavbarContainer {
     position: absolute;
     font-weight: bold;
     color: white;
-    .NavbarRow{
-        .NavbarColCenter{
-            ul{
+    .NavbarRow {
+        .NavbarColCenter {
+            ul {
                 list-style: none;
-                li{
+                li {
                     text-transform: uppercase;
                 }
-                .NavbarTitleLi{
-                    font-weight: o;
+                .NavbarTitleLi {
+                    font-weight: 0;
                 }
-                .NavbarSubtitleLi{
+                .NavbarSubtitleLi {
                     font-size: 0.70em;
                     font-weight: bold;
                 }
             }
         }
-        .Cols{
-            ul{
+        .Cols {
+            .NavbarUl {
                 display: flex;
                 align-items: flex-end;
                 justify-content: space-evenly;
                 list-style: none;
-                li{
+                .NavbarLi, .NavbarLiModal {
                     text-transform: uppercase;
                     font-weight: bold;
                     cursor: pointer;
                 }
-                :hover{
+                .NavbarLi:hover {
+                    transition:0.8s linear;
+                    border-bottom: 1px solid white;
+                }
+                .NavbarLiModal:hover {
                     transition:0.8s linear;
                     border-bottom: 1px solid white;
                 }

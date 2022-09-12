@@ -3,6 +3,9 @@
 // SCSS import:
 import './Navbar.scss';
 import './NavbarMediaQuery.scss';
+// Components import:
+import BurgerMenu from '../BurgerMenu/BurgerMenu';
+import LoginModal from '../LoginModal/LoginModal';
 // React import:
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
@@ -33,10 +36,10 @@ const Navbar = () => {
                     <ul className='NavbarUl'>
                         <li className='NavbarLi'>Book Now</li>
                         <li className='NavbarLi'>Contact</li>
-                        <li className='NavbarLi'>Login</li>
+                        <li className='NavbarLiModal'><LoginModal /></li>
                     </ul>
                 </Col>
-                <label className='BurgerMenuLabel'></label>
+                <label className='BurgerMenuLabel'> <BurgerMenu/> </label>
             </Row>
         </Container>
     )

@@ -127,6 +127,9 @@
                     width: 98%;
                     font-size: 12px;
                     padding: 10px;
+                    .SpanCheck {
+                        display: none;
+                    }
                 }
             }
         }
@@ -135,15 +138,21 @@
 
 // SMALL DEVICES [SM]
 @media all and (min-width: 577px) and (max-width: 768px) {
-
+    .HomeFormContainer {
+        display: none;
+    }
 }
 
 // XS DEVICES [-]
 @media all and (min-width: 415px) and (max-width: 576px){
-
+    .HomeFormContainer {
+        display: none;
+    }
 }
 
 // IPHONE 6/7/8 PLUS DEVICES [AN EXCEPTION]
 @media all and (max-width: 414px) {
-
+    .HomeFormContainer {
+        display: none;
+    }
 }

@@ -1,8 +1,8 @@
 /* IMPORTS */
 
 // SCSS import:
-import './CheckAvailability.scss';
-import './CheckAvailabilityMediaQuery.scss';
+import './CheckAvailabilityMobile.scss';
+import './CheckAvailabilityMobileMediaQuery.scss';
 // React import:
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
@@ -11,48 +11,47 @@ import { Container, Row, Col } from 'react-bootstrap';
 /* COMPONENTS */
 
 // Check Availability component:
-function CheckAvailability () {
+function CheckAvailabilityMobile () {
 
     return (
-        <Container fluid className='HomeFormContainer'>
-            <Row className='HomeFormRow'>
-                <form className='HomeForm'>
-                    <Col  className='HomeFormTags'>
+        <Container fluid className='AvailabilityMobileContainer'>
+            <Row className='AvailabilityMobileRow'>
+                <form className='AvailabilityMobileForm'>
+                    <Col className='AvailabilityMobileTags'>
                         <label className='CustomField'>
-                            <input className='input' id='FormName' type='text' name='' placeholder="&nbsp;" required=''/>
+                            <input className='input' id='FormName' type='text' name='' placeholder="Complete Name" required=''/>
                             <span className='Placeholder'>Complete Name</span>
                         </label>
                     </Col>
 
-                    <Col  className='HomeFormTags'>
+                    <Col className='AvailabilityMobileTags'>
                         <label className='CustomField'>
                             <input className='input' id='FormAdults' type='number' name='' placeholder="&nbsp;" required=''/>
                             <span className='Placeholder'>Amount of adults</span>
                         </label>
                     </Col>
 
-                    <Col  className='HomeFormTags'>
+                    <Col className='AvailabilityMobileTags'>
                         <label className='CustomField'>
                             <input className='input' id='FormChildren' type='number' name='' placeholder="&nbsp;" required=''/>
                             <span className='Placeholder'>Amount of children</span>
                         </label>
                     </Col>
 
-                    <Col  className='HomeFormTags'>
+                    <Col className='AvailabilityMobileTags'>
                         <label className='CustomField'>
                             <input className='input' id='FormNights' type='number' name='' placeholder="&nbsp;" required=''/>
                             <span className='Placeholder'>Amount of nights</span>
                         </label>
                     </Col>
 
-                    <Col  className='HomeFormTags'>
-                        <button className='HomeFormBtn' id='HomeFormBtnId'> <span className='SpanCheck'> Check </span>Availability </button>
+                    <Col className='AvailabilityMobileTags'>
+                        <button className='AvailabilityMobileBtn' id='AvailabilityMobileBtnId'> <span className='SpanCheck'> Check </span>Availability </button>
                     </Col>
                 </form>
-
             </Row>
         </Container>
     )
 }
 
-export default CheckAvailability;
+export default CheckAvailabilityMobile;
