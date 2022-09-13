@@ -1,0 +1,10 @@
+.ActivitiesContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    --bs-gutter-x: 0;
+    overflow: hidden;
+    background-color: black;
+}
