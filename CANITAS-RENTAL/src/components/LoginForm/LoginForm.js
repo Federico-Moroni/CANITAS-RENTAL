@@ -14,7 +14,7 @@ function LoginForm({ Login, error }) {
     <form className='LoginForm' onSubmit={submitHandler}>
         <div className='LoginFormDiv'>
             <h6 className='LoginFormTitle'>Sign In</h6>
-            {(error != '') ? (<div className='LoginFormError'>{error}</div>) : ""}
+            {(error !== '') ? (<div className='LoginFormError'>{error}</div>) : ""}
 
             <div className='LoginFormGroup'>
                 <input className='CustomField' type='email' name='email' id='email' onChange={e => setDetails({...details, email: e.target.value})} value={details.email}></input>
