@@ -24,9 +24,12 @@
                 height: 4em;
                 padding-left: 0;
                 padding-right: 0;
+                display: flex;
+                justify-content: end;
                 ul{
                     height: 4em;
                     padding-left: 0;
+                    width: 60%;
                     li {
                         font-size: 0.9em;
                         margin-bottom: 1.5%;

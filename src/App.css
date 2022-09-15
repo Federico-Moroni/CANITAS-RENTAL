@@ -32,3 +32,19 @@
   font-family: quicksand;
   src: url(https://res.cloudinary.com/dfprmjlir/raw/upload/v1653796189/FONTS/Quicksand_Light_chkisf.otf) format('opentype');
 }
+@font-face {
+  font-family: romantica;
+  src: url(https://res.cloudinary.com/dfprmjlir/raw/upload/v1663122715/FONTS/Romantica_z800uc.ttf) format('authenticated');
+}
+@font-face {
+  font-family: tomatoes;
+  src: url(https://res.cloudinary.com/dfprmjlir/raw/upload/v1663122726/FONTS/TOMATOES_Personal_Use_dqqqtz.ttf) format('authenticated');
+}
+@font-face {
+  font-family: beauties;
+  src: url(https://res.cloudinary.com/dfprmjlir/raw/upload/v1663122739/FONTS/La_Beauties_muzguw.ttf) format('opentype');
+}
+@font-face {
+  font-family: better;
+  src: url(https://res.cloudinary.com/dfprmjlir/raw/upload/v1663122750/FONTS/Better_Grade_wt5vhq.ttf) format('opentype');
+}

@@ -3,6 +3,8 @@
 // SCSS import:
 import './CheckAvailability.scss';
 import './CheckAvailabilityMediaQuery.scss';
+// Components import:
+import CottageModal from '../CottageModal/CottageModal';
 // React import:
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
@@ -46,7 +48,7 @@ function CheckAvailability () {
                     </Col>
 
                     <Col  className='HomeFormTags'>
-                        <button className='HomeFormBtn' id='HomeFormBtnId'> <span className='SpanCheck'> Check </span>Availability </button>
+                        <CottageModal />
                     </Col>
                 </form>
 
