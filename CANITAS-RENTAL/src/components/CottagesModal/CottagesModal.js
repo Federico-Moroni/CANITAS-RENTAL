@@ -1,23 +1,49 @@
 import './CottagesModal.scss';
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import img1A from '../../Assets/Images/caballogauchoactivities.jpg'
+import img1B from '../../Assets/Images/home__picture.jpg'
+import img2A from '../../Assets/Images/home__picture2.jpg'
+import img2B from '../../Assets/Images/chicaperrocabana.jpg'
+import img3A from '../../Assets/Images/home__picture4.jpg'
+import img3B from '../../Assets/Images/home__picture5.jpg'
+import img4A from '../../Assets/Images/home__picture3.jpg'
+import img4B from '../../Assets/Images/avion.jpg'
+
+
 
 export default function CottagesModal (props) {
 
-    function change1() {
-        const thumb = 'https://res.cloudinary.com/dfprmjlir/image/upload/v1662661230/CANITAS%20RENTAL/pexels-micah-boerma-1008739_gox1wl.jpg'
+    function change1A() {
+        const thumb = img1A
         document.getElementById('mainImg').src = thumb;
     }
-    function change2() {
-        const thumb = 'https://res.cloudinary.com/dfprmjlir/image/upload/v1662945179/CANITAS%20RENTAL/pexels-spencer-gurley-films-1517670_xhroxr.jpg'
+    function change1B() {
+        const thumb = img1B
         document.getElementById('mainImg').src = thumb;
     }
-    function change3() {
-        const thumb = 'https://cdn.rawgit.com/huijing/filerepo/gh-pages/lw' + '3' + '.jpg'
+    function change2A() {
+        const thumb = img2A
         document.getElementById('mainImg').src = thumb;
     }
-    function change4() {
-        const thumb = 'https://cdn.rawgit.com/huijing/filerepo/gh-pages/lw' + '4' + '.jpg'
+    function change2B() {
+        const thumb = img2B
+        document.getElementById('mainImg').src = thumb;
+    }
+    function change3A() {
+        const thumb = img3A
+        document.getElementById('mainImg').src = thumb;
+    }
+    function change3B() {
+        const thumb = img3B
+        document.getElementById('mainImg').src = thumb;
+    }
+    function change4A() {
+        const thumb = img4A
+        document.getElementById('mainImg').src = thumb;
+    }
+    function change4B() {
+        const thumb = img4B
         document.getElementById('mainImg').src = thumb;
     }
 
@@ -42,22 +68,27 @@ return (
                         {/* COTTAGES MODAL IMAGES GALLERY RIGHT SIDE */}
                         <div className="ModalSliderContainer">
 
-                            <ul className="slidess">
-                                <img className='mainImg' id="mainImg" src='https://res.cloudinary.com/dfprmjlir/image/upload/v1662661230/CANITAS%20RENTAL/pexels-micah-boerma-1008739_gox1wl.jpg'/>
+                            <ul className="mainContainer">
+                                {(props.count > 0 && props.count < 4 ) && <img className='mainImg' id="mainImg" src={img1A}/>}
+                                {(props.count > 3 && props.count <= 10) && <img className='mainImg' id="mainImg" src={img1B}/>}
                             </ul>
 
                             <ul className="thumbnails">
                                 <li>
-                                <a className='image1' onClick={change1} href="#slide1"><img className='ThumbImages' src="https://res.cloudinary.com/dfprmjlir/image/upload/v1662661230/CANITAS%20RENTAL/pexels-micah-boerma-1008739_gox1wl.jpg" /></a>
+                                {(props.count > 0 && props.count < 4) && <a onClick={change1A} href="#slide1"><img className='ThumbImages' src={img1A} /></a>}
+                                {(props.count > 3 && props.count <= 10) && <a onClick={change1B} href="#slide1"><img className='ThumbImages' src={img1B} /></a>}
                                 </li>
                                 <li>
-                                <a onClick= {change2} href="#slide2"><img className='ThumbImages' src="https://res.cloudinary.com/dfprmjlir/image/upload/v1662945179/CANITAS%20RENTAL/pexels-spencer-gurley-films-1517670_xhroxr.jpg" /></a>
+                                {(props.count > 0 && props.count < 4) && <a onClick={change2A} href="#slide1"><img className='ThumbImages' src={img2A} /></a>}
+                                {(props.count > 3 && props.count <= 10) && <a onClick={change2B} href="#slide1"><img className='ThumbImages' src={img2B} /></a>}
                                 </li>
                                 <li>
-                                <a onClick= {change3} href="#slide3"><img className='ThumbImages' src="https://cdn.rawgit.com/huijing/filerepo/gh-pages/lw3.jpg" /></a>
+                                {(props.count > 0 && props.count < 4) && <a onClick={change3A} href="#slide1"><img className='ThumbImages' src={img3A} /></a>}
+                                {(props.count > 3 && props.count <= 10) && <a onClick={change3B} href="#slide1"><img className='ThumbImages' src={img3B} /></a>}
                                 </li>
                                 <li>
-                                <a onClick= {change4} href="#slide4"><img className='ThumbImages' src="https://cdn.rawgit.com/huijing/filerepo/gh-pages/lw4.jpg" /></a>
+                                {(props.count > 0 && props.count < 4) && <a onClick={change4A} href="#slide1"><img className='ThumbImages' src={img4A} /></a>}
+                                {(props.count > 3 && props.count <= 10) && <a onClick={change4B} href="#slide1"><img className='ThumbImages' src={img4B} /></a>}
                                 </li>
                             </ul>
                         </div>

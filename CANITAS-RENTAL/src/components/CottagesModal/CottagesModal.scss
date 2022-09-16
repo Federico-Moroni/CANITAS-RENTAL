@@ -23,7 +23,7 @@
 
 // Modal
 .ViewModalContainer {
-    width: 80vw;
+    width: 90vw;
     height: 80vh;
     background-color: #111;
     color: white;
@@ -133,19 +133,19 @@ ul,li,a {
     }
 
     .ThumbImages {
-        width: 8vw;
+        width: 10vw;
         height: 20vmin;
         object-fit: cover;
         object-position: top;
     }
 }
 
-.slidess {
+.mainContainer {
     overflow: hidden;
     .mainImg{
         position: relative;
         object-fit: cover;
-        width: 34vw;
+        width: 42vw;
         height: 80vh;
         z-index: 1;
     }
