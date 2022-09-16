@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
+    z-index: 5;
 }
 
 // Abre el modal al 'checkear' el input
@@ -22,11 +22,12 @@
 }
 
 // Modal
-.ModalContainer {
-    max-width: 460px;
+.ViewModalContainer {
+    width: 80vw;
+    height: 80vh;
     background-color: #111;
     color: white;
-    padding: 60px 30px;
+    padding: 0;
     box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
     transition: all 500ms ease;
     position: relative;
@@ -71,21 +72,28 @@
 
 // Información del Modal
 .CottageModalText {
-    padding: 0 20px;
-    height: 400px;
+    padding: 0;
     overflow-y: auto;
     text-align: left;
     font-weight: 500;
     color: white;
+    display: flex;
+    justify-content: end;
+    
 
     p {
         font-weight: bold;
     }
 }
 
+.ModalInfoContainer{
+    width: 43%;
+    height: auto;
+}
+
 // Colores del Scroll
 .CottageModalText::-webkit-scrollbar {
-    width: 1px;
+    width: 5px;
     background-color: rgb(154, 154, 154);
 }
 
@@ -97,5 +105,48 @@
 @media only screen and (min-width:320px) and (max-width:768px) {
     .ModalContainer {
         width: 80%;
+    }
+}
+
+.ModalSliderContainer {
+    display: flex;
+    justify-content: end;
+    text-align: right;
+    height: auto;
+    width: 57%;
+}
+
+ul,li,a {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.thumbnails {
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    
+    a {
+        display: block;
+    }
+
+    .ThumbImages {
+        width: 8vw;
+        height: 20vmin;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+
+.slidess {
+    overflow: hidden;
+    .mainImg{
+        position: relative;
+        object-fit: cover;
+        width: 34vw;
+        height: 80vh;
+        z-index: 1;
     }
 }

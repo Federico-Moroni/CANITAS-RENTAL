@@ -29,7 +29,7 @@ const LoginModal = () => {
     }
 
     return (
-        <Container className='ModalContainer'>
+        <Container className='CottagesModalContainer'>
             <input type="checkbox" id="btn-modal"></input>
                 <label htmlFor="btn-modal" className="lbl-modal"> Login </label>
 
