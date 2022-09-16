@@ -15,9 +15,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 // Hero Image Component:
 const HeroImage = () => {
 
-const w = window.innerWidth
-console.log(w)
-
     return(
         <Container fluid className='HeroImageContainer'>
             <Row>
@@ -30,9 +27,7 @@ console.log(w)
                         </div>
                     </h1>
                 </Col>
-            {w >= 768 && <CheckAvailability />}
             </Row>
-            {w < 768 && <CheckAvailability />}
         </Container>
     )
 }

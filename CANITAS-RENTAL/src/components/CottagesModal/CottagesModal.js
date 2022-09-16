@@ -1,20 +1,25 @@
 import './CottagesModal.scss';
 import React, { useState } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 export default function CottagesModal (props) {
 
-const cottage = 'b'
-
 return (
-    
-    <div className='CottagesModalComponent'>
-        {cottage === 'a' && <h2 className='CABANA-A'>CABANA A</h2>}
-        {cottage === 'a' && <h3 className='CABANA-A'>subtitulo cabana A</h3>}
-        {cottage === 'b' &&<h2 className='CABANA-B'>CABANA B</h2>}
-        {cottage === 'b' &&<h3 className='CABANA-B'>subtitulo cabana B</h3>}
-    </div>
+        <Container className='CottageModalContainer'>
+            <input type="checkbox" id="btn-cottagemodal"></input>
+                <label htmlFor="btn-cottagemodal" className="lbl-CottageModal"> Cottage </label>
 
+            <div className="CottageModalOpen">
+                <div className="ModalContainer">
+                    <label htmlFor="btn-cottagemodal" className='X'>X</label>
+                    <div className='CottageModalText'>
+                        {(props.count > 0 && props.count < 4 ) && <h2 className='CABANA-A'>CABANA A</h2>}
+                        {(props.count > 3 && props.count <= 10) && <h2 className='CABANA-B'>CABANA B</h2>}
+                        {(props.count > 10) && <h2 className='CABANA-B'>We dont have enough room</h2>}
+                    </div>
+                </div>
+            </div>
+        </Container>
 )
-
 }
+

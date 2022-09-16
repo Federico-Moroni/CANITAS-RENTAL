@@ -121,7 +121,7 @@
 // SMALL DEVICES [SM]
 @media all and (min-width: 577px) and (max-width: 768px) {
     .HeroImageContainer {
-        height: 200vh;
+        height: 100vh;
 
         .HeroCol {
             padding: 0;
@@ -161,7 +161,7 @@
 // XS DEVICES [-]
 @media all and (min-width: 415px) and (max-width: 576px) {
     .HeroImageContainer {
-        height: 200vh;
+        height: 100vh;
 
         .HeroCol {
             padding: 0;
@@ -201,7 +201,7 @@
 // IPHONE 6/7/8 PLUS DEVICES [AN EXCEPTION]
 @media all and (max-width: 414px) {
     .HeroImageContainer {
-        height: 200vh;
+        height: 100vh;
 
         .HeroCol {
             padding: 0;
