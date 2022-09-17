@@ -13,7 +13,6 @@ import { Link } from 'react-scroll';
 
 // BurgerMenu component:
 const BurgerMenu = () => {
-    // const [t, i18n] = useTranslation("global");
 
     return (
         <Container className='BurgerMenu'>
@@ -29,11 +28,6 @@ const BurgerMenu = () => {
                     <li className='BurgerMenuLink'> <Link to='villa' spy={true} smooth={true} offset={0} duration={600} className='NavBarLink'> Book Now</Link> </li>
                     <li className='BurgerMenuLink'> <Link to='contact' spy={true} smooth={true} offset={0} duration={600} className='NavBarLink'> Contact </Link> </li>
                     <li className='BurgerMenuLink'> <Link to='login' spy={true} smooth={true} offset={0} duration={600} className='NavBarLink'> Login </Link> </li>
-                    {/* <li className='BurgerMenuLink'>
-                        <button onClick={() => i18n.changeLanguage('en')}> {t('nav-bar.language-eng')} </button>
-                        |
-                        <button onClick={() => i18n.changeLanguage('es')}> {t('nav-bar.language-spa')} </button>
-                    </li> */}
                 </ul>
             </nav>
         </Container>

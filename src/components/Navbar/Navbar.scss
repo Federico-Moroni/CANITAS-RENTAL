@@ -3,22 +3,9 @@
     font-weight: bold;
     color: white;
     .NavbarRow {
-        .NavbarColCenter {
-            ul {
-                list-style: none;
-                li {
-                    text-transform: uppercase;
-                }
-                .NavbarTitleLi {
-                    font-weight: 0;
-                }
-                .NavbarSubtitleLi {
-                    font-size: 0.70em;
-                    font-weight: bold;
-                }
-            }
-        }
-        .Cols {
+        .NavbarColumn {
+            display: flex;
+            justify-content: end;
             .NavbarUl {
                 display: flex;
                 align-items: flex-end;

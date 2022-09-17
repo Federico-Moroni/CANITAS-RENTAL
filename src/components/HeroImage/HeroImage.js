@@ -6,7 +6,6 @@ import './HeroImageMediaQuery.scss'
 // React import:
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import CheckAvailability from '../CheckAvailability/CheckAvailability';
 
 
 /* COMPONENTS */
@@ -22,13 +21,10 @@ const HeroImage = () => {
                     <div className='GlassEffectContainer'>
                         <div className='GlassEffect'></div>
                     </div>
-                    <h1 className='HeroImageH1'>
-                        <div className='HeroMessage'>
-                            <span className="word">Bosque Las Cañitas</span><span className='wordWrapper'></span>
-                        </div>
-                        <p>hola</p>
-                    </h1>
-                    <CheckAvailability/>
+                    <div className='HeroTextContent'>
+                        <h1 className="H1">Bosque Las Cañitas</h1>
+                        <p className='Intro'> <hr/>Entre bosques de pino, abedules, cedros, liquidàmbar y robles. Paisajes de gran belleza con lomas y valles poblados de ovejas, arroyos, vertientes y ríos de innumerables cascadas y pozones de agua cristalina que dejan ver el nado de las truchas.</p>
+                    </div>
                 </Col>
             </Row>
         </Container>

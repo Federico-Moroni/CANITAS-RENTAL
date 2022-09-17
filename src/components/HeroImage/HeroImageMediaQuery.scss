@@ -5,25 +5,25 @@
         .HeroCol {
             padding: 0;
             height: 100vh;
-            .HeroImageH1 {
-                font-size: 2.5em;
-                height: 20vh;
-                width: 35vw;
-                // margin-top:-25vh;
-                padding-left: 5vw;
+            .GlassEffectContainer {
                 width: 100vw;
-                .Welcome {
-                    font-size: .8em;
+                .GlassEffect {
+                    height: 100vh;
+                    width: 38vw;
                 }
-                .HeroMessage {
-                    font-size: 1.5em;
-                    height: 1.8em;
-                    // width: 100%;
-                    .wordWrapper {
-                        width: 0;
-                        height: 100%;
-                        right: 0;
-                    }
+            }
+            .HeroTextContent {
+                width: 100vw;
+                margin-top: 40vh;
+                .H1 {
+                    font-size: 5em;
+                    padding-left: 16%;
+                }
+                .Intro {
+                    font-size: .8em;
+                    width: 35%;
+                    padding-left: 16%;
+                    padding-top: 5%;
                 }
             }
             .HeroImg {
@@ -41,23 +41,25 @@
         .HeroCol {
             padding: 0;
             height: 100vh;
-            .HeroImageH1 {
-                font-size: 2.5em;
-                height: 20vh;
-                width: 40vw;
-                margin-top:-25vh;
-                .Welcome {
-                    font-size: .8em;
+            .GlassEffectContainer {
+                width: 100vw;
+                .GlassEffect {
+                    height: 100vh;
+                    width: 38vw;
                 }
-                .HeroMessage {
+            }
+            .HeroTextContent {
+                width: 100vw;
+                margin-top: 40vh;
+                .H1 {
+                    font-size: 5em;
+                    padding-left: 7%;
+                }
+                .Intro {
                     font-size: .8em;
-                    height: 1.8em;
-                    width: 100%;
-                    .wordWrapper {
-                        width: 0;
-                        height: 100%;
-                        right: 0;
-                    }
+                    width: 35%;
+                    padding-left: 7%;
+                    padding-top: 5%;
                 }
             }
             .HeroImg {
@@ -75,23 +77,25 @@
         .HeroCol {
             padding: 0;
             height: 100vh;
-            .HeroImageH1 {
-                font-size: 2.5em;
-                height: 20vh;
-                width: 50vw;
-                margin-top:-25vh;
-                .Welcome {
-                    font-size: .8em;
+            .GlassEffectContainer {
+                width: 100vw;
+                .GlassEffect {
+                    height: 100vh;
+                    width: 38vw;
                 }
-                .HeroMessage {
+            }
+            .HeroTextContent {
+                width: 100vw;
+                margin-top: 40vh;
+                .H1 {
+                    font-size: 5em;
+                    padding-left: 8%;
+                }
+                .Intro {
                     font-size: .8em;
-                    height: 1.8em;
-                    width: 100%;
-                    .wordWrapper {
-                        width: 0;
-                        height: 100%;
-                        right: 0;
-                    }
+                    width: 35%;
+                    padding-left: 8%;
+                    padding-top: 5%;
                 }
             }
             .HeroImg {
@@ -109,23 +113,19 @@
         .HeroCol {
             padding: 0;
             height: 100vh;
-            .HeroImageH1 {
-                font-size: 2.5em;
-                height: 20vh;
-                width: 80vw;
-                margin-top:-20vh;
-                .Welcome {
-                    font-size: .8em;
+            .GlassEffectContainer {
+                display: none;
+            }
+            .HeroTextContent {
+                display: flex;
+                justify-content: center;
+                width: 100vw;
+                margin-top: 35vh;
+                .H1 {
+                    font-size: 3.8em;
                 }
-                .HeroMessage {
-                    font-size: .8em;
-                    height: 1.8em;
-                    width: 100%;
-                    .wordWrapper {
-                        width: 0;
-                        height: 100%;
-                        right: 0;
-                    }
+                .Intro {
+                    display: none;
                 }
             }
             .HeroImg {
@@ -143,23 +143,19 @@
         .HeroCol {
             padding: 0;
             height: 100vh;
-            .HeroImageH1 {
-                font-size: 2em;
-                height: 20vh;
-                width: 90vw;
-                margin-top:-10vh;
-                .Welcome {
-                    font-size: .7em;
+            .GlassEffectContainer {
+                display: none;
+            }
+            .HeroTextContent {
+                display: flex;
+                justify-content: center;
+                width: 100vw;
+                margin-top: 40vh;
+                .H1 {
+                    font-size: 3em;
                 }
-                .HeroMessage {
-                    font-size: .8em;
-                    height: 1.8em;
-                    width: 100%;
-                    .wordWrapper {
-                        width: 0;
-                        height: 100%;
-                        right: 0;
-                    }
+                .Intro {
+                    display: none;
                 }
             }
             .HeroImg {
@@ -177,23 +173,19 @@
         .HeroCol {
             padding: 0;
             height: 100vh;
-            .HeroImageH1 {
-                font-size: 2em;
-                height: 25vh;
-                width: 90vw;
-                margin-top:-10vh;
-                .Welcome {
-                    font-size: .7em;
+            .GlassEffectContainer {
+                display: none;
+            }
+            .HeroTextContent {
+                display: flex;
+                justify-content: center;
+                width: 100vw;
+                margin-top: 40vh;
+                .H1 {
+                    font-size: 3em;
                 }
-                .HeroMessage {
-                    font-size: .8em;
-                    height: 1.8em;
-                    width: 100%;
-                    .wordWrapper {
-                        width: 0;
-                        height: 100%;
-                        right: 0;
-                    }
+                .Intro {
+                    display: none;
                 }
             }
             .HeroImg {

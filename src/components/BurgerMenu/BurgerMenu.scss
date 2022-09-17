@@ -29,12 +29,12 @@
 
     .BurgerMenuButton {
         // position: fixed;
-        top: 20px;
-        right: 40px;
-        z-index: 2000;
         text-align: center;
         cursor: pointer;
         transition: all 0.2s;
+        top: 20px;
+        right: 40px;
+        z-index: 2000;
         margin-top: -90px;
 
         .BurgerMenuBars {
