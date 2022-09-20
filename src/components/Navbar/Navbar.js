@@ -22,8 +22,8 @@ const Navbar = () => {
                 <Col className='NavbarColumn'>
                     <ul className='NavbarUl'>
                         <li className='NavbarLi'>Home</li>
-                        <li className='NavbarLi'>Activities</li>
                         <li className='NavbarLi'>Cottages</li>
+                        <li className='NavbarLi'>Activities</li>
                         <li className='NavbarLi'>Book Now</li>
                         <li className='NavbarLi'>Contact</li>
                         <li className='NavbarLiModal'><LoginModal /></li>

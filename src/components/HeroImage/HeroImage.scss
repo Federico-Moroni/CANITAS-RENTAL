@@ -19,10 +19,19 @@
             color: white;
             .H1 {
                 font-family: romantica;
+                display: flex;
+                justify-content: center;
+                text-shadow:    10px 10px 25px rgb(0, 0, 0),
+                                -10px 10px 25px rgb(0, 0, 0),
+                                -10px -10px 25px rgb(0, 0, 0),
+                                10px -10px 25px rgb(0, 0, 0);
             }
             .Intro {
                 text-align: justify;
                 font-weight: bold;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
             }
         }
         .HeroImg {
