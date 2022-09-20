@@ -1,5 +1,6 @@
 import React from 'react'
 import './Slider.scss'
+import './SliderMediaQuery.scss'
 
 const slides = [
   {
@@ -24,11 +25,11 @@ const slides = [
       "https://res.cloudinary.com/dfprmjlir/image/upload/v1662323994/CANITAS%20RENTAL/home__picture3_ngvn0c.jpg"
   },
   {
-    title: "Horseride",
+    title: "Dirt road",
     subtitle: "View",
-    description: "A piece of heaven",
+    description: "Roads in the forest",
     image:
-      "https://res.cloudinary.com/dfprmjlir/image/upload/v1662422863/CANITAS%20RENTAL/caballogauchoactivities_kj7fvt.jpg"
+      "https://res.cloudinary.com/dfprmjlir/image/upload/v1662661230/CANITAS%20RENTAL/pexels-micah-boerma-1008739_gox1wl.jpg"
   },
   {
     title: "Bridges",
@@ -36,6 +37,34 @@ const slides = [
     description: "A piece of heaven",
     image:
       "https://res.cloudinary.com/dfprmjlir/image/upload/v1662660825/CANITAS%20RENTAL/pexels-kaique-rocha-775201_aoaqbs.jpg"
+  },
+  {
+    title: "Road",
+    subtitle: "Sunlight",
+    description: "Road with a view",
+    image:
+      "https://res.cloudinary.com/dfprmjlir/image/upload/v1663006213/CANITAS%20RENTAL/pexels-trace-hudson-6056787_nt4gls.jpg"
+  },
+  {
+    title: "Conifers",
+    subtitle: "Pine",
+    description: "Mountain forest",
+    image:
+      "https://res.cloudinary.com/dfprmjlir/image/upload/v1662944960/CANITAS%20RENTAL/pexels-ays%CC%A7e-o%CC%88zkan-12228823_ubmnhv.jpg"
+  },
+  {
+    title: "Drone",
+    subtitle: "Trees",
+    description: "Road view",
+    image:
+      "https://res.cloudinary.com/dfprmjlir/image/upload/v1662323972/CANITAS%20RENTAL/home__picture5_rhpmqk.jpg"
+  },
+  {
+    title: "Mountain",
+    subtitle: "Cloudy",
+    description: "Mountain hike",
+    image:
+      "https://res.cloudinary.com/dfprmjlir/image/upload/v1662323978/CANITAS%20RENTAL/home__picture4_spwpxi.jpg"
   }
 ];
 
@@ -116,12 +145,6 @@ function Slide({ slide, offset }) {
       }}
     >
       <div
-        className="slideBackground"
-        style={{
-          backgroundImage: `url('${slide.image}')`
-        }}
-      />
-      <div
         className="slideContent"
         style={{
           backgroundImage: `url('${slide.image}')`
@@ -129,7 +152,7 @@ function Slide({ slide, offset }) {
       >
         <div className="slideContentInner">
           <h2 className="slideTitle">{slide.title}</h2>
-          <h3 className="slideSubtitle">{slide.subtitle}</h3>
+          <h3 className="slideSubtitle">{slide.subtitle} <hr/></h3>
           <p className="slideDescription">{slide.description}</p>
         </div>
       </div>

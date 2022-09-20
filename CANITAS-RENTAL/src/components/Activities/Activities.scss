@@ -2,9 +2,13 @@
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    z-index: -1;
+    align-items: flex-end;
+    z-index: -5;
     --bs-gutter-x: 0;
+    background-image: url('https://res.cloudinary.com/dfprmjlir/image/upload/v1663682473/CANITAS%20RENTAL/301pexels-kris-m%C3%B8klebust-11894998_weoajf_eljctb.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     overflow: hidden;
-    background-color: black;
+    // background: linear-gradient(#868d84, #010101);
 }

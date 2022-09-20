@@ -42,7 +42,7 @@ const formSubmit = (event) => {
     return (
         <div className='FormContainer'>
 
-            <form onSubmit={formSubmit}>
+            <form className='Form' onSubmit={formSubmit}>
 
                 <div className='FormSingleItem'>
                     <label htmlFor='name'>Name</label>

@@ -4,38 +4,40 @@
     .HeroCol {
         position: relative;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        justify-content: left;
 
-        .HeroImageH1 {
-            text-transform: uppercase;
+        .GlassEffectContainer {
             position: absolute;
+            display: flex;
+            justify-content: left;
+
+            .GlassEffect {
+                backdrop-filter: blur(3px);
+                background-color: rgba(255, 255, 255, 0.09);
+            }
+        }
+
+        .HeroTextContent {
+            position: absolute;
+            text-align: left;
             color: white;
 
-            .Welcome {
-                font-size: .8em;
-            }
-
-            .HeroMessage {
-                visibility: visible;
-                overflow: hidden;
-                position: absolute;
-                font-weight: bold;
+            .H1 {
+                font-family: romantica;
                 display: flex;
                 justify-content: center;
-                align-items: center;
+                text-shadow: 10px 10px 25px rgb(0, 0, 0),
+                    -10px 10px 25px rgb(0, 0, 0),
+                    -10px -10px 25px rgb(0, 0, 0),
+                    10px -10px 25px rgb(0, 0, 0);
+            }
 
-                .word {
-                    animation: transp 6.9s
-                }
-
-                .wordWrapper {
-                    position: absolute;
-                    background-color: black;
-                    //  filter: brightness(65%);
-                    animation: openclose 3.5s ease-in-out;
-                    animation-delay: 2s;
-                }
+            .Intro {
+                text-align: justify;
+                font-weight: bold;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
             }
         }
 

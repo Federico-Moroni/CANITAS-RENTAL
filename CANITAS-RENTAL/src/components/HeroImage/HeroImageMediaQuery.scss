@@ -7,26 +7,29 @@
             padding: 0;
             height: 100vh;
 
-            .HeroImageH1 {
-                font-size: 2.5em;
-                height: 20vh;
-                width: 35vw;
-                margin-top: -25vh;
+            .GlassEffectContainer {
+                width: 100vw;
 
-                .Welcome {
-                    font-size: .8em;
+                .GlassEffect {
+                    height: 100vh;
+                    width: 40vw;
+                }
+            }
+
+            .HeroTextContent {
+                width: 100vw;
+                margin-top: 43vh;
+
+                .H1 {
+                    font-size: 4em;
+                    width: 40vw;
                 }
 
-                .HeroMessage {
+                .Intro {
                     font-size: .8em;
-                    height: 1.8em;
-                    width: 100%;
-
-                    .wordWrapper {
-                        width: 0;
-                        height: 100%;
-                        right: 0;
-                    }
+                    width: 40vw;
+                    margin-top: 3%;
+                    padding: 0 7%;
                 }
             }
 
@@ -47,26 +50,29 @@
             padding: 0;
             height: 100vh;
 
-            .HeroImageH1 {
-                font-size: 2.5em;
-                height: 20vh;
-                width: 40vw;
-                margin-top: -25vh;
+            .GlassEffectContainer {
+                width: 100vw;
 
-                .Welcome {
-                    font-size: .8em;
+                .GlassEffect {
+                    height: 100vh;
+                    width: 38vw;
+                }
+            }
+
+            .HeroTextContent {
+                width: 100vw;
+                margin-top: 40vh;
+
+                .H1 {
+                    font-size: 3em;
+                    width: 38vw;
                 }
 
-                .HeroMessage {
+                .Intro {
                     font-size: .8em;
-                    height: 1.8em;
-                    width: 100%;
-
-                    .wordWrapper {
-                        width: 0;
-                        height: 100%;
-                        right: 0;
-                    }
+                    width: 38vw;
+                    margin-top: 3%;
+                    padding: 0 6%;
                 }
             }
 
@@ -87,26 +93,29 @@
             padding: 0;
             height: 100vh;
 
-            .HeroImageH1 {
-                font-size: 2.5em;
-                height: 20vh;
-                width: 50vw;
-                margin-top: -25vh;
+            .GlassEffectContainer {
+                width: 100vw;
 
-                .Welcome {
-                    font-size: .8em;
+                .GlassEffect {
+                    height: 100vh;
+                    width: 50vw;
+                }
+            }
+
+            .HeroTextContent {
+                width: 100vw;
+                margin-top: 40vh;
+
+                .H1 {
+                    font-size: 3.2em;
+                    width: 50vw;
                 }
 
-                .HeroMessage {
+                .Intro {
                     font-size: .8em;
-                    height: 1.8em;
-                    width: 100%;
-
-                    .wordWrapper {
-                        width: 0;
-                        height: 100%;
-                        right: 0;
-                    }
+                    width: 50vw;
+                    margin-top: 3%;
+                    padding: 0 8%;
                 }
             }
 
@@ -127,26 +136,22 @@
             padding: 0;
             height: 100vh;
 
-            .HeroImageH1 {
-                font-size: 2.5em;
-                height: 20vh;
-                width: 80vw;
-                margin-top: -20vh;
+            .GlassEffectContainer {
+                display: none;
+            }
 
-                .Welcome {
-                    font-size: .8em;
+            .HeroTextContent {
+                display: flex;
+                justify-content: center;
+                width: 100vw;
+                margin-top: 40vh;
+
+                .H1 {
+                    font-size: 4em;
                 }
 
-                .HeroMessage {
-                    font-size: .8em;
-                    height: 1.8em;
-                    width: 100%;
-
-                    .wordWrapper {
-                        width: 0;
-                        height: 100%;
-                        right: 0;
-                    }
+                .Intro {
+                    display: none;
                 }
             }
 
@@ -167,26 +172,22 @@
             padding: 0;
             height: 100vh;
 
-            .HeroImageH1 {
-                font-size: 2em;
-                height: 20vh;
-                width: 90vw;
-                margin-top: -10vh;
+            .GlassEffectContainer {
+                display: none;
+            }
 
-                .Welcome {
-                    font-size: .7em;
+            .HeroTextContent {
+                display: flex;
+                justify-content: center;
+                width: 100vw;
+                margin-top: 45vh;
+
+                .H1 {
+                    font-size: 3.5em;
                 }
 
-                .HeroMessage {
-                    font-size: .8em;
-                    height: 1.8em;
-                    width: 100%;
-
-                    .wordWrapper {
-                        width: 0;
-                        height: 100%;
-                        right: 0;
-                    }
+                .Intro {
+                    display: none;
                 }
             }
 
@@ -207,26 +208,22 @@
             padding: 0;
             height: 100vh;
 
-            .HeroImageH1 {
-                font-size: 2em;
-                height: 25vh;
-                width: 90vw;
-                margin-top: -10vh;
+            .GlassEffectContainer {
+                display: none;
+            }
 
-                .Welcome {
-                    font-size: .7em;
+            .HeroTextContent {
+                display: flex;
+                justify-content: center;
+                width: 100vw;
+                margin-top: 40vh;
+
+                .H1 {
+                    font-size: 3.1em;
                 }
 
-                .HeroMessage {
-                    font-size: .8em;
-                    height: 1.8em;
-                    width: 100%;
-
-                    .wordWrapper {
-                        width: 0;
-                        height: 100%;
-                        right: 0;
-                    }
+                .Intro {
+                    display: none;
                 }
             }
 

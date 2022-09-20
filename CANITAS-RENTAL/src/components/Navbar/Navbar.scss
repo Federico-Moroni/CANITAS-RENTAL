@@ -4,26 +4,10 @@
     color: white;
 
     .NavbarRow {
-        .NavbarColCenter {
-            ul {
-                list-style: none;
+        .NavbarColumn {
+            display: flex;
+            justify-content: end;
 
-                li {
-                    text-transform: uppercase;
-                }
-
-                .NavbarTitleLi {
-                    font-weight: 0;
-                }
-
-                .NavbarSubtitleLi {
-                    font-size: 0.70em;
-                    font-weight: bold;
-                }
-            }
-        }
-
-        .Cols {
             .NavbarUl {
                 display: flex;
                 align-items: flex-end;
